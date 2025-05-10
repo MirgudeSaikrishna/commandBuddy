@@ -133,6 +133,66 @@
       "category": "Terminal",
       "command": "clear",
       "description": "Clear the terminal screen"
-    }
+    },
+    {
+    "category": "Git",
+    "command": "git stash",
+    "description": "Temporarily save changes without committing"
+  },
+  {
+    "category": "Git",
+    "command": "git reset --hard HEAD",
+    "description": "Discard all local changes and reset to the last commit"
+  },
+  {
+    "category": "npm",
+    "command": "npm outdated",
+    "description": "Check for outdated packages"
+  },
+  {
+    "category": "npm",
+    "command": "npm audit",
+    "description": "Run a security audit of installed packages"
+  },
+  {
+    "category": "Node.js",
+    "command": "npm init -y",
+    "description": "Generate a default package.json file"
+  },
+  {
+    "category": "MongoDB",
+    "command": "db.collection.find()",
+    "description": "Retrieve all documents from a collection"
+  },
+  {
+    "category": "MongoDB",
+    "command": "db.collection.deleteOne({})",
+    "description": "Delete a single document from a collection"
+  },
+  {
+    "category": "Terminal",
+    "command": "touch filename.txt",
+    "description": "Create an empty file"
+  },
+  {
+    "category": "Terminal",
+    "command": "cat filename.txt",
+    "description": "Display file contents"
+  },
+  {
+    "category": "React",
+    "command": "npm install react-router-dom",
+    "description": "Install React Router for routing"
+  },
+  {
+    "category": "React",
+    "command": "npm install tailwindcss",
+    "description": "Install Tailwind CSS framework"
+  },
+  {
+    "category": "React",
+    "command": "npm run build",
+    "description": "Create a production build of your React app"
+  }
   ]
   
